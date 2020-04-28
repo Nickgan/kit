@@ -11,5 +11,18 @@
 
     <artifactId>kit-export-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.ganbo</groupId>
+            <artifactId>kit-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
